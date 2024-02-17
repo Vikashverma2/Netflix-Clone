@@ -1,0 +1,80 @@
+
+
+.accordion{
+    padding: 10px 12%;
+    font-size: 18px;
+    background-color: black;
+    /* position: absolute; */
+}
+
+.accordion h1{
+    text-align: center;
+    font-size: 72px;
+    color: white;
+    margin-top: 30px;
+    padding: 40px 0px;
+    font-weight: 800;
+}
+.accordion-card{
+    margin-bottom: 10px;
+     font-size: 22px;
+    cursor: pointer;
+    position: relative;
+  
+}
+
+.accordion-title{
+    color: white;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background: #303030;
+   
+    
+}
+.accordion-title h2{
+    font-weight: 400;
+}
+.accordion-title:hover{
+    transition: ease-in-out 0.2s;
+    background-color:  #454444;
+}
+
+.accordion-title span{
+font-size: 40px;
+    color: white;
+}
+
+.dis{
+    padding-inline: 30px;
+    margin-top: 1.5px;
+    background: #303030;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.1s, padding 0.1s;
+    
+  }
+
+.dis.show{
+    height: auto;
+    max-height: 999px;
+      color: white;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 30px;
+
+}
+.accordion-footer{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.accordion-footer p{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
