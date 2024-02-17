@@ -34,6 +34,4 @@ To run tests, run the following command
 - Cross platform
 
 
-## 🔗 Credit Netflix
-[![Original Netflix](https://www.netflix.com/in/)]
 
